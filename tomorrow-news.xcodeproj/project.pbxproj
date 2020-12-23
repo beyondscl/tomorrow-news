@@ -6,20 +6,8 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		048B013A2593216400F7CFD4 /* tomorrow_newsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B01392593216400F7CFD4 /* tomorrow_newsApp.swift */; };
-		048B013C2593216400F7CFD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B013B2593216400F7CFD4 /* ContentView.swift */; };
-		048B013E2593216C00F7CFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048B013D2593216C00F7CFD4 /* Assets.xcassets */; };
-		048B01412593216C00F7CFD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048B01402593216C00F7CFD4 /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		048B01362593216400F7CFD4 /* tomorrow-news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tomorrow-news.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		048B01392593216400F7CFD4 /* tomorrow_newsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomorrow_newsApp.swift; sourceTree = "<group>"; };
-		048B013B2593216400F7CFD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		048B013D2593216C00F7CFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		048B01402593216C00F7CFD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		048B01422593216C00F7CFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,21 +40,8 @@
 		048B01382593216400F7CFD4 /* tomorrow-news */ = {
 			isa = PBXGroup;
 			children = (
-				048B01392593216400F7CFD4 /* tomorrow_newsApp.swift */,
-				048B013B2593216400F7CFD4 /* ContentView.swift */,
-				048B013D2593216C00F7CFD4 /* Assets.xcassets */,
-				048B01422593216C00F7CFD4 /* Info.plist */,
-				048B013F2593216C00F7CFD4 /* Preview Content */,
 			);
 			path = "tomorrow-news";
-			sourceTree = "<group>";
-		};
-		048B013F2593216C00F7CFD4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				048B01402593216C00F7CFD4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +101,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048B01412593216C00F7CFD4 /* Preview Assets.xcassets in Resources */,
-				048B013E2593216C00F7CFD4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +111,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048B013C2593216400F7CFD4 /* ContentView.swift in Sources */,
-				048B013A2593216400F7CFD4 /* tomorrow_newsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
